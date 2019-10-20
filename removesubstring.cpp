@@ -7,6 +7,15 @@ using namespace std;
 #define str string
 #define endl "\n"
 #define rtn return(0)
+
+
+void vijay()
+{
+ int matrix[100][10];
+   
+      for(int i=0;i<100;i++) for(j=0;j<10;j++) matri[i][j]=i*j;
+   
+}
 int check(str s1, str s2)
 {
    long int n1=s1.size(),n2=s2.size(),i,j,c=0,a=0;
@@ -19,6 +28,8 @@ int check(str s1, str s2)
         else
             return(0);
     }
+   
+   
     else
     {
         for(int i=0;i<n1;i++)
